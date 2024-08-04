@@ -11,6 +11,7 @@ For the wavetable method linear interpolation was used.
 
 Each oscillator was given a random frequency between 110 & 880 Hz, the outputs mixed and then sent to the audio output.
 
-The total number of oscillators used was increased untill Bela reported underuns. The previous value was recorded, the process repeated 4 times and the results averaged (using the mean). 
+The total number of oscillators used was increased untill Bela reported underuns (using a block size of 16). The previous value was recorded, the process repeated 4 times and the results averaged (using the mean). 
+
     
 ![alt text](https://github.com/tomjamfos/Bela_SineOscMethods/blob/main/bar_graph.png "Plotted results")
